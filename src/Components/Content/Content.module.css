@@ -1,0 +1,95 @@
+/* Тут вообще ужас не знал как сделать */
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contnent {
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text {
+    position: relative;
+    margin-left: 150px;
+    max-width: 550px;
+    color: #fff;
+
+}
+ /* 01 */
+.text::before{
+    position: absolute;
+    left: -20%;
+    top: 0;
+    transform: translateY(-50%);
+    display: contents;
+    content: "01";
+    width: 240px;
+    height: 240px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 1;
+    color: rgb(255, 255, 255, 0.1);
+}
+
+.text2{
+    position: relative;
+    margin-left: 150px;
+    max-width: 550px;
+    color: #fff;
+}
+
+.text2::before{
+    position: absolute;
+    left: -20%;
+    top: 0;
+    transform: translateY(-50%);
+    display: contents;
+    content: "02";
+    width: 240px;
+    height: 240px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 1;
+    color: rgb(255, 255, 255, 0.1);
+}
+
+.contnent2 {
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.text3 {
+    position: relative;
+    margin-left: 150px;
+    max-width: 550px;
+    color: #fff;
+
+}
+
+.text3::before{
+    position: absolute;
+    left: -20%;
+    top: 0;
+    transform: translateY(-50%);
+    display: contents;
+    content: "03";
+    width: 240px;
+    height: 240px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 1;
+    color: rgb(255, 255, 255, 0.1);
+}

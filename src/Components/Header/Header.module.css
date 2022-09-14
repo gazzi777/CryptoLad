@@ -1,0 +1,44 @@
+.header{
+    width: auto;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+.logo{
+    font-family: 'Playfair Dispaly', serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.head{
+    color: #fff;
+    padding-top: 44px;
+}
+
+.row{
+     display: flex;  /*Чтобы в ряд выстраивалось*/
+}
+
+.nav{
+    font-weight: 700;
+}
+
+.ula{
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .nav li+li{
+    margin-left: 40px;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+} */
+.between{
+    justify-content: space-between;
+}

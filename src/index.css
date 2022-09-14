@@ -1,0 +1,14 @@
+body {
+  color: #fff;
+  margin: 0;
+  font-family: 'Gilroy';
+  /* background-image: url(./img/bg.jpg);
+  background-size: 100% auto; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

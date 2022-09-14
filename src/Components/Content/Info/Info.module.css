@@ -1,0 +1,66 @@
+.subtitle {
+    margin-bottom: 32px;
+    position: relative;
+    padding-left: 104px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Полосочка */
+.subtitle::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 72px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.title {
+    margin-bottom: 27px;
+    max-width: 555px;
+    font-family: 'Playfair Dispaly', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.22;
+    color: #fff;
+}
+
+.info {
+    font-size: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.78;
+    color: #fff;
+}
+
+.read {
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FBD784;
+    padding-right: 37px;
+}
+
+.read::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 16px;
+    background-image: url(ArrowToRight.svg);
+
+}
